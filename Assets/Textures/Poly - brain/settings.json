@@ -1,0 +1,23 @@
+{
+  "prompt_text": "brain, extreme fine details, rendered in unreal engine",
+  "patch": {
+    "ext": "png",
+    "dtype": "uint8",
+    "width": 512,
+    "height": 512,
+    "url": "https://static-dev.withpoly.com/v3-voronoi/textures/patches/35770b4e-cb8e-44ee-b2c2-574290ea165f.png",
+    "patch_id": "n9xJGNLQew"
+  },
+  "seamless_prompt_text": "brain, extreme fine details, rendered in unreal engine",
+  "seamless_patch_scale": 0.86,
+  "upscale_prompt_text": "brain, extreme fine details, rendered in unreal engine",
+  "upscale_resolution": 4096,
+  "is_seamless": true,
+  "pbr_mode": "organic",
+  "pbr_generate_color": true,
+  "pbr_generate_normal": true,
+  "pbr_generate_height": true,
+  "pbr_generate_ao": true,
+  "pbr_generate_roughness": true,
+  "pbr_generate_metallic": false
+}

@@ -106,6 +106,9 @@ public class DialogueManager : MonoBehaviour
 
         panel.SetActive(false);
         choicesContainer.gameObject.SetActive(false);
+
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
 
@@ -356,6 +359,8 @@ public class DialogueManager : MonoBehaviour
 
     void DisplayChoices()
     {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
 
         //clear selected ui element (unity UI quirk)
         EventSystem.current.SetSelectedGameObject(null);
@@ -467,6 +472,10 @@ public class DialogueManager : MonoBehaviour
         }
 
         choicesContainer.gameObject.SetActive(false);
+
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+
     }
 
     //teleports player to an object named id
@@ -495,7 +504,7 @@ public class DialogueManager : MonoBehaviour
 
     public void Activate(string id)
     {
-        Transform[] transforms = GameObject.FindObjectsOfType<Transform>(true);
+        Transform[] transforms = FindObjectsByType<Transform>(FindObjectsInactive.Include, FindObjectsSortMode.None);
 
         foreach (Transform t in transforms)
         {

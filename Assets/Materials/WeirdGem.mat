@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WeirdGem
+  m_Shader: {fileID: 4800000, guid: 1d754f70c1de6c446a88d8d303470877, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorMap:
+        m_Texture: {fileID: 2800000, guid: a411cfc07ca71d84aa6fcbed9682dc2c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: bdb664c426fba95469dd61ad3ac4ea10, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: ddd7c362ff20b1f4d93399703b79e397, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 09c584683595146469c48a9d6a3579b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: b45d24378f116cc468dcfe87130b3ac2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PLightMap:
+        m_Texture: {fileID: 2800000, guid: 282a9f3bf335adf44b3eba07be419e7c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShinyMap:
+        m_Texture: {fileID: 2800000, guid: 282a9f3bf335adf44b3eba07be419e7c, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Brightness: 0
+    - _BumpScale: 1
+    - _CenterOrbFalloff: 6
+    - _CenterOrbFalloffSharpness: 1
+    - _CenterOrbImportance: 0.3
+    - _ColorMult: 1.11
+    - _ColorMultiplier: 1
+    - _ColorSize: 1.77
+    - _ColorStart: 0
+    - _Cutoff: 0.5
+    - _DeltaStepSize: 0.12
+    - _DetailNormalMapScale: 1
+    - _Distance: 613
+    - _Distort: 1.81
+    - _DstBlend: 0
+    - _ExponentMult: 0.5
+    - _Fresnel: 2.24
+    - _FullDarkCutoff: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.349
+    - _GlossyReflections: 1
+    - _GrabPassOpacity: 0.273
+    - _IndexOfRefraction: 0.8
+    - _Metallic: 0.261
+    - _Mode: 0
+    - _NoiseExtrudeSubtractor: -0.04
+    - _NoiseImportance: 1
+    - _NoiseMag: 2
+    - _NoiseNormalExtrude: 0.01
+    - _NoisePow: 3.03
+    - _NoiseSharpness: 1
+    - _NoiseSize: 3.97
+    - _NoiseSpeed: 5
+    - _NoiseStepRate: 23.75
+    - _NoiseSubtractor: 0
+    - _NoiseTextureOffset: 6.1
+    - _Normal: 0
+    - _NumSteps: 10.84
+    - _Numbers: 0
+    - _OcclusionStrength: 1
+    - _Offset: -1
+    - _OffsetMultiplier: 0
+    - _Opaqueness: 1
+    - _OutlineAmount: 0.01
+    - _PainterlyLight: 0
+    - _Parallax: 0.449
+    - _Reflectance: 0.56
+    - _Reflection: 2.65
+    - _ReflectionMultiplier: 1
+    - _ReflectionSharpness: 1.73
+    - _Refraction: 0.31
+    - _RefractionBackgroundSampleExtraStep: 0
+    - _RefractionIndex: 1.4
+    - _RimEffect: -1
+    - _RimPower: 1.6
+    - _Saturation: 1.102
+    - _Scale: 3.73
+    - _ShadowColorMultiplier: 2.59
+    - _ShininessMultiplier: 3.45
+    - _SkinnedMesh: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecSize: 1
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _StencilMask: 9
+    - _StepRefractionMultiplier: 0.38
+    - _Triplanar: 0
+    - _TriplanarSharpness: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
+    - _BottomCol: {r: 0, g: 1, b: 0, a: 1}
+    - _CenterOrbColor: {r: 1, g: 1, b: 1, a: 1}
+    - _CenterOrbOffset: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorTop: {r: 0, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _HardRimColor: {r: 0.38956857, g: 1, b: 0, a: 1}
+    - _NoiseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _NoiseOffset: {r: 0, g: 0, b: 0, a: 1}
+    - _OutlineColor: {r: 0.38679248, g: 0, b: 0.1963974, a: 1}
+    - _ReflectionColor: {r: 0.39618495, g: 0.8679245, b: 0.28248486, a: 1}
+    - _SoftRimColor: {r: 1, g: 0, b: 0, a: 1}
+    - _TextureShadingWeights: {r: 0, g: 1, b: 2, a: 3}
+    - _Tint: {r: 1, g: 1, b: 0, a: 1}
+    - _ToonRamp: {r: 0, g: 0, b: 0, a: 1}
+    - _TriplanarMultiplier: {r: 10, g: 10, b: 10, a: 1}
+  m_BuildTextureStacks: []
